@@ -4,6 +4,9 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := # Ignored, see cmdline.txt
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
+# Kernel headers
+PRODUCT_VENDOR_KERNEL_HEADERS := $(DEVICE_PATH)/kernel-headers
+
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm8960t
 TARGET_KERNEL_CONFIG := viskan_huashan_defconfig
