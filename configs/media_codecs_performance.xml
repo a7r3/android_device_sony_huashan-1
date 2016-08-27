@@ -37,5 +37,4 @@ limitations under the License.
             <Limit name="measured-frame-rate-640x480" range="148-148" />
         </MediaCodec>
     </Encoders>
-    <Include href="media_codecs_google_performance.xml" />
 </MediaCodecs>
